@@ -1,0 +1,100 @@
+header{
+    text-align: center;
+    background-image: linear-gradient(rgb(245, 245, 122),rgb(255, 255, 255) );
+    height: 5%;
+    padding: 2, 0, 5, 0;
+}
+.navbar-brand{
+    display: inline;
+}
+.container{
+    display: inline-block;
+}
+.nav-btn{
+    height: 70px;
+    width: 165px;
+    display: inline-block;
+    text-align: center;
+    padding: auto;
+    color: rgb(122, 58, 35);
+    font-size: 2em;
+}
+.nav-btn:hover{
+    font-size: 2.1em;
+}
+a{
+    text-decoration: none;
+}
+.slogan{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(99, 79, 26);
+}
+.panorama{
+    text-align: center;
+}
+.panorama img:hover{
+    width: 94%;
+}
+.content{
+    font-size: 17px;
+    text-align: center;
+}
+.abzats{
+    width: 900px;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+}
+.firstsentence{
+    font-size: 23px;
+    font-family: 'Comfortaa', cursive;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 23px;
+}
+footer{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    height: 80px;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(245, 245, 122) );
+}
+
+
+@media(max-width:1000px){
+    .nav-btn{
+        height: 50px;
+        width: 125px;
+        font-size: 1.1em;
+    }
+    .container{
+        font-size: 1.5em;
+    }
+    .abzats{
+        width: 500px;
+    }
+}
+@media(min-width:1500px){
+    .nav-btn{
+        height: 90px;
+        width: 250px;
+        font-size: 2.3em;
+    }
+    .container{
+        font-size: 1.2em;
+    }
+    .abzats{
+        width: 1200px;
+        font-size: 1.65em;
+    }
+    h3{
+        font-size: 1.75em;
+    }
+    h4{
+        font-size: 1.7em;
+    }
+}
